@@ -7503,7 +7503,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -7541,7 +7541,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">energy</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/energy.csv'</span><span class="p">)</span>
@@ -7556,7 +7556,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7779,7 +7779,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Identify dtypes</span>
@@ -7795,7 +7795,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Country                         object
 Energy_type                     object
@@ -7829,7 +7829,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">energy_df</span> <span class="o">=</span> <span class="n">energy</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">'Country'</span><span class="p">,</span> <span class="s1">'Year'</span><span class="p">])</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">'World'</span><span class="p">,</span> <span class="p">:]</span>
@@ -7854,7 +7854,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">energy_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -7868,7 +7868,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7977,7 +7977,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">All_production</span> <span class="o">=</span> <span class="n">energy_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">energy_df</span><span class="p">[</span><span class="s2">"Energy_type"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"all_energy_types"</span><span class="p">][[</span><span class="s2">"Energy_production"</span><span class="p">]]</span>
@@ -7996,7 +7996,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">total_df</span> <span class="o">=</span> <span class="n">All_production</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">nuclear_production</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">"Year"</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">renewable_production</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">"Year"</span><span class="p">)</span>
@@ -8011,7 +8011,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">total_df</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'line'</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">'The portion of renewable energy over the years'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'portion'</span><span class="p">)</span>
@@ -8025,7 +8025,7 @@ We want to know if the portion of renewable energy has increased over the last 4
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;Axes: title={'center': 'The portion of renewable energy over the years'}, xlabel='Year'&gt;</pre>
 </div>
@@ -8055,7 +8055,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">highest_renewable</span> <span class="o">=</span> <span class="n">energy</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">energy</span><span class="o">.</span><span class="n">Year</span> <span class="o">==</span> <span class="mi">2019</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">energy</span><span class="o">.</span><span class="n">Energy_type</span> <span class="o">==</span> <span class="s1">'renewables_n_other'</span><span class="p">)][[</span><span class="s1">'Country'</span><span class="p">,</span> <span class="s1">'Energy_production'</span><span class="p">]]</span>
@@ -8071,7 +8071,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8136,7 +8136,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We can also find out how much power generation has increased from 1980 to 2019.</p>
+<p>We can also find out how much power generation from renewable energy has increased from 1980 to 2019.</p>
 </div>
 </div>
 </div>
@@ -8145,7 +8145,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pg</span> <span class="o">=</span> <span class="n">energy</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">energy</span><span class="o">.</span><span class="n">Country</span> <span class="o">==</span> <span class="s1">'World'</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">energy</span><span class="o">.</span><span class="n">Energy_type</span> <span class="o">==</span> <span class="s1">'renewables_n_other'</span><span class="p">)]</span>
@@ -8186,7 +8186,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">highest_nuclear</span> <span class="o">=</span> <span class="n">energy</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">energy</span><span class="o">.</span><span class="n">Year</span> <span class="o">==</span> <span class="mi">2019</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">energy</span><span class="o">.</span><span class="n">Energy_type</span> <span class="o">==</span> <span class="s1">'nuclear'</span><span class="p">)][[</span><span class="s1">'Country'</span><span class="p">,</span> <span class="s1">'Energy_production'</span><span class="p">]]</span>
@@ -8202,7 +8202,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8266,7 +8266,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">nuclear_production</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'line'</span><span class="p">)</span>
@@ -8280,7 +8280,7 @@ We can filter the dataframe to include only the renewable energy sources in the 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;Axes: xlabel='Year'&gt;</pre>
 </div>
@@ -8301,6 +8301,47 @@ We can filter the dataframe to include only the renewable energy sources in the 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>The most recent nuclear accident was the Fukushima nuclear accident in 2011. As we can see, the nuclear energy production decreased significantly after 2011. We only recovered 2005's nuclear energy production level in 2019. Because of the accident, Germany phased out all nuclear power plants in 2023.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We can also look at how much CO2 emission increased over the last 40 years.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">co</span> <span class="o">=</span> <span class="n">energy</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">energy</span><span class="o">.</span><span class="n">Country</span> <span class="o">==</span> <span class="s1">'World'</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">energy</span><span class="o">.</span><span class="n">Energy_type</span> <span class="o">==</span> <span class="s1">'all_energy_types'</span><span class="p">)]</span>
+<span class="n">co2019</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">co</span><span class="o">.</span><span class="n">Year</span><span class="o">==</span><span class="mi">2019</span><span class="p">]</span><span class="o">.</span><span class="n">CO2_emission</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+<span class="n">co1980</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">co</span><span class="o">.</span><span class="n">Year</span><span class="o">==</span><span class="mi">1980</span><span class="p">]</span><span class="o">.</span><span class="n">CO2_emission</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"CO2 emission of the entire world increased by </span><span class="si">{:.2f}% f</span><span class="s2">rom 1980 to 2019"</span><span class="o">.</span><span class="n">format</span><span class="p">((</span><span class="n">co2019</span><span class="o">-</span><span class="n">co1980</span><span class="p">)</span><span class="o">/</span><span class="n">co1980</span><span class="o">*</span><span class="mi">100</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>CO2 emission of the entire world increased by 619.38% from 1980 to 2019
+</pre>
+</div>
 </div>
 </div>
 </div>
